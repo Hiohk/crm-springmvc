@@ -10,112 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7893f4ae-b417-4ff1-9f01-0980c48f9fb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/web/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/dictionary/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/dictionary/type/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/dictionary/type/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/dictionary/type/save.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/dictionary/value/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/dictionary/value/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/dictionary/value/save.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/permission/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/role/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/role/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/user/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/user/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/user/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/chart/activity/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/chart/clue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/chart/customerAndContacts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/chart/transaction/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/convert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/contacts/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/contacts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/customer/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/customer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/main/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/transaction/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/transaction/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/transaction/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/transaction/save.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/datetimepickertest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/echartstest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/echartstest2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/filedownloadtest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/fileuploadtest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/image/IMG_7114.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/image/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/image/user-thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap-datetimepicker-master/locale/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap-datetimepicker-master_bak/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap-datetimepicker-master_bak/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap-datetimepicker-master_bak/locale/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0_bak/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0_bak/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0_bak/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0_bak/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0_bak/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0_bak/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0_bak/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bootstrap_3.3.0_bak/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_pagination-master/css/jquery.bs_pagination.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_pagination-master/js/jquery.bs_pagination.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_pagination-master/localization/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_pagination-master/localization/el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_pagination-master/localization/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_pagination-master/localization/en.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_pagination-master/localization/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_pagination-master/localization/ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/bs_typeahead/bootstrap3-typeahead.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/echarts/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/jquery-1.11.1-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/jquery/zTree_v3-master/js/jquery.ztree.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/paginationtest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/typeaheadtest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/webapp/typeaheadtest2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +56,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -259,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725804823273</updated>
       <workItem from="1725804824550" duration="191000" />
-      <workItem from="1725805037782" duration="586000" />
+      <workItem from="1725805037782" duration="756000" />
     </task>
     <servers />
   </component>
