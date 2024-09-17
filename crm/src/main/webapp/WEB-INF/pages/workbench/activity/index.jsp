@@ -249,7 +249,23 @@ String basePath=request.getScheme()+"://"+request.getServerName()+":"+request.ge
 			var cost=$.trim($("#edit-cost").val());
 			var description=$.trim($("#edit-description").val());
 			//表单验证(作业)
+			if(owner=="") {
+				alert("所有者不能为空");
+				return;
+			}
 
+			if(name==""){
+				alert("名称不能为空");
+				return;
+			}
+
+			if(startDate!=""&&endDate!="") {
+				if(endDate<startDate) {
+					alert("结束日期不能比开始日期小");
+					return;
+				}
+
+			}
 			//发送请求
 			$.ajax({
 				url:'workbench/activity/saveEditActivity.do',

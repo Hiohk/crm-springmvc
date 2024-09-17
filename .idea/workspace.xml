@@ -10,13 +10,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7893f4ae-b417-4ff1-9f01-0980c48f9fb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/crm-mybatis-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/contants/Contants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/domain/ReturnObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/utils/UUIDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/web/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/ActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/impl/ActivityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/WorkbenckIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/applicationContext-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +76,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2ln99gcOJ7MkBGQvjEQTvTqtgvi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,18 +89,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/user/Documents/backend-learn/crm-springmvc/crm/src/main/java/com/hkgroup/crm/web/controller",
+    "last_opened_file_path": "/Users/user/Documents/backend-learn/crm-springmvc/crm-mybatis-generator/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "service.view.auto.scroll.from.source": "true",
     "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "1fece0cb254f1f45891bc9ee9fed72a9",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources" />
       <recent name="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/web/controller" />
       <recent name="$PROJECT_DIR$/crm" />
       <recent name="$PROJECT_DIR$/crm/src/main" />
@@ -156,7 +198,9 @@
       <option name="presentableId" value="Default" />
       <updated>1725804823273</updated>
       <workItem from="1725804824550" duration="191000" />
-      <workItem from="1725805037782" duration="756000" />
+      <workItem from="1725805037782" duration="40023000" />
+      <workItem from="1726547189829" duration="484000" />
+      <workItem from="1726547681627" duration="14985000" />
     </task>
     <servers />
   </component>

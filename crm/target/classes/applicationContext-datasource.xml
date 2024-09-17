@@ -13,7 +13,8 @@
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="username" value="root"/>
         <property name="password" value="root1234"/>
-        <property name="url" value="jdbc:mysql://127.0.0.1:3306/crm2024?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+        <property name="url"
+                  value="jdbc:mysql://127.0.0.1:3306/crm2024?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
     </bean>
     <!-- 配置SqlSessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -24,7 +25,8 @@
     </bean>
     <!-- mapper注解扫描器配置,扫描@MapperScan注解,自动生成代码对象 -->
     <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.hkgroup.crm.mapper"/>
+        <property name="basePackage" value="com.hkgroup.crm.settings.mapper,
+                                            com.hkgroup.crm.workbench.mapper"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 
