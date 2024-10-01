@@ -56,15 +56,65 @@ public interface ActivityMapper {
 
     /**
      * 查询活动列表
+     *
      * @param map
      * @return
      */
-    List<Activity> selectActivityByConditionForPage(Map<String,Object> map);
+    List<Activity> selectActivityByConditionForPage(Map<String, Object> map);
 
     /**
      * 查询活动总数
+     *
      * @param map
      * @return
      */
-    int selectCountOfActivityByCondition(Map<String,Object> map);
+    int selectCountOfActivityByCondition(Map<String, Object> map);
+
+    /**
+     * 删除活动
+     *
+     * @param ids
+     * @return
+     */
+    int deleteActivityByIds(String[] ids);
+
+    /**
+     * 根据id查询活动
+     *
+     * @param id
+     * @return
+     */
+    Activity selectActivityById(String id);
+
+    /**
+     * 修改活动
+     *
+     * @param activity
+     * @return
+     */
+    int updateActivity(Activity activity);
+
+    /**
+     * 查询所有活动
+     *
+     * @return
+     */
+    List<Activity> selectAllActivities();
+
+    /**
+     * 批量插入活动
+     *
+     * @param activityList
+     * @return
+     */
+    int insertActivityByList(List<Activity> activityList);
+
+    /**
+     * 根据id查询活动详情
+     * @param id
+     * @return
+     */
+    Activity selectActivityForDetailById(String id);
+
+    List<Activity> selectActivityForDetailByClueId(String clueId);
 }

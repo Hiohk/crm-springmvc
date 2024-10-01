@@ -10,35 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7893f4ae-b417-4ff1-9f01-0980c48f9fb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crm-mybatis-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/contants/Contants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/domain/ReturnObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/utils/UUIDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/web/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/web/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/ActivityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/impl/ActivityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/ActivityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/WorkbenckIndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/service/DicValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/settings/service/impl/DicValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/ActivityRemarkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/ClueRemarkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/ClueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/impl/ActivityRemarkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/impl/ClueRemarkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/impl/ClueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/ActivityRemarkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/ClueController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-datasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/target/classes/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/applicationContext-datasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/target/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/applicationContext-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext-datasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/contants/Contants.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/commons/contants/Contants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/mapper/ActivityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/mapper/ActivityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/mapper/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/mapper/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/impl/ActivityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/service/impl/ActivityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/com/hkgroup/crm/workbench/web/controller/ActivityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/commons/contants/Contants.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/commons/contants/Contants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/mapper/ActivityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/mapper/ActivityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/mapper/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/mapper/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/service/ActivityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/service/ActivityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/service/impl/ActivityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/service/impl/ActivityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/web/controller/ActivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/com/hkgroup/crm/workbench/web/controller/ActivityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/commons/contants/Contants.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/commons/contants/Contants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/mapper/ActivityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/mapper/ActivityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/mapper/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/mapper/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/service/ActivityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/service/ActivityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/service/impl/ActivityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/service/impl/ActivityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/web/controller/ActivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/com/hkgroup/crm/workbench/web/controller/ActivityController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "service.view.auto.scroll.from.source": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "1fece0cb254f1f45891bc9ee9fed72a9",
     "vue.rearranger.settings.migration": "true"
   }
@@ -200,11 +201,23 @@
       <workItem from="1725804824550" duration="191000" />
       <workItem from="1725805037782" duration="40023000" />
       <workItem from="1726547189829" duration="484000" />
-      <workItem from="1726547681627" duration="14985000" />
+      <workItem from="1726547681627" duration="49895000" />
+      <workItem from="1727520813397" duration="4619000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
